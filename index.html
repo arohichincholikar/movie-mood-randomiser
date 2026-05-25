@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Movie Mood Randomizer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Movie Mood Randomizer</h1>
+
+<p class="subtitle">
+Tell me your vibe and I'll choose tonight's movie.
+</p>
+
+<div class="controls">
+
+<select id="mood">
+<option value="">Select Mood</option>
+<option>happy</option>
+<option>sad</option>
+<option>chaotic</option>
+<option>romantic</option>
+<option>nostalgic</option>
+<option>scared</option>
+</select>
+
+<select id="runtime">
+<option value="">Runtime</option>
+<option value="short">Under 90 min</option>
+<option value="medium">90–120 min</option>
+<option value="long">120+ min</option>
+</select>
+
+<select id="watchWith">
+<option value="">Watching With</option>
+<option value="solo">Solo</option>
+<option value="friends">Friends</option>
+<option value="family">Family</option>
+<option value="date">Date</option>
+</select>
+
+<button id="findBtn">
+FIND MY MOVIE 🍿
+</button>
+
+</div>
+
+
+<div class="result" id="result">
+
+<img id="poster" />
+
+<div class="ticket">
+
+<h2 id="movieTitle"></h2>
+
+<p id="movieGenre"></p>
+
+<p id="movieRuntime"></p>
+
+<div class="divider"></div>
+
+<p id="movieSnack"></p>
+
+<p id="movieReason"></p>
+
+<button id="reroll">
+REROLL
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
