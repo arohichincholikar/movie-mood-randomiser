@@ -1,6 +1,6 @@
 const findBtn = document.getElementById("findBtn");
 const reroll = document.getElementById("reroll");
-
+const TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMDY1MjU2MDcwODEyNzIxNjJiYzIzN2Y1MGRmMDliZiIsIm5iZiI6MTc3OTY5Mzg4Ny4yMjU5OTk4LCJzdWIiOiI2YTEzZjkzZmM2YjM0NjU0NDMwMmQ2NjkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.erGT33SPiFoKBfF9AuYMpERxoPd05rIghAIlVeIGoLE";
 /* -----------------------------
    MOOD → TMDB GENRE MAP
 ------------------------------ */
