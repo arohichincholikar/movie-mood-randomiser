@@ -14,17 +14,17 @@ Built using live movie data from TMDB and designed to feel fast, fun, and cinema
 * Re-roll for endless recommendations  
 * Responsive and lightweight UI  
 
-## 🛠 Built With
+## Built With
 
 - HTML
 - CSS
 - JavaScript
 - TMDB API
 
-## 🚀 Live Demo
+## Live Demo
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 
