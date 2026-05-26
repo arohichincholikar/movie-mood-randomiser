@@ -22,7 +22,7 @@ Built using live movie data from TMDB and designed to feel fast, fun, and cinema
 - TMDB API
 
 ## Live Demo
-
+https://arohichincholikar.github.io/movie-mood-randomiser/
 
 ## Project Structure
 
