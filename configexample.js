@@ -1,1 +1,0 @@
-const TMDB_TOKEN = "PUT_YOUR_TOKEN_HERE";
